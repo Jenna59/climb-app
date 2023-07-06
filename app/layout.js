@@ -1,7 +1,15 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Cabin, Cabin_Sketch } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+export const cabin = Cabin({ 
+  subsets: ['latin'],
+  display: 'swap'
+})
+
+export const cabin_sketch = Cabin({ 
+  subsets: ['latin'],
+  display: 'swap'
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={cabin.className}>{children}</body>
     </html>
   )
 }

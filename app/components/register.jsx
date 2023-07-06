@@ -2,7 +2,7 @@
 
 export function Registration() {
   return (
-    <form className="flex flex-col">
+    <form className="flex flex-col z-10">
 
       <h1>Join Us For a Good Climb!</h1>
 
