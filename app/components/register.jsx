@@ -2,8 +2,8 @@
 
 export function Registration() {
   return (
-    <form name="register" method="POST" data-netlify="true" className="flex flex-col">
-      <input type="hidden" name="register" value="register" /> 
+    <form name="register" action="/" method="POST" data-netlify="true" className="flex flex-col">
+      <input type="hidden" name="form-name" value="register" /> 
 
       <h1>Join Us For a Good Climb!</h1>
 
