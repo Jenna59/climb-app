@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@hookform/resolvers", "virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:3.1.1"],\
             ["autoprefixer", "virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:10.4.14"],\
             ["eslint", "npm:8.44.0"],\
             ["eslint-config-next", "virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:13.4.8"],\
@@ -38,7 +39,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.0.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:18.2.0"],\
-            ["tailwindcss", "npm:3.3.2"]\
+            ["react-hook-form", "virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:7.45.1"],\
+            ["tailwindcss", "npm:3.3.2"],\
+            ["zod", "npm:3.21.4"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -126,6 +129,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@eslint-js-npm-8.44.0-66b473d41b-fc53958322.zip/node_modules/@eslint/js/",\
           "packageDependencies": [\
             ["@eslint/js", "npm:8.44.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@hookform/resolvers", [\
+        ["npm:3.1.1", {\
+          "packageLocation": "./.yarn/cache/@hookform-resolvers-npm-3.1.1-c95006d0fa-41da04f099.zip/node_modules/@hookform/resolvers/",\
+          "packageDependencies": [\
+            ["@hookform/resolvers", "npm:3.1.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:3.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/@hookform-resolvers-virtual-ba2ddb74d3/0/cache/@hookform-resolvers-npm-3.1.1-c95006d0fa-41da04f099.zip/node_modules/@hookform/resolvers/",\
+          "packageDependencies": [\
+            ["@hookform/resolvers", "virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:3.1.1"],\
+            ["@types/react-hook-form", null],\
+            ["react-hook-form", "virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:7.45.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-hook-form",\
+            "react-hook-form"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1077,6 +1102,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["climb-app", "workspace:."],\
+            ["@hookform/resolvers", "virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:3.1.1"],\
             ["autoprefixer", "virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:10.4.14"],\
             ["eslint", "npm:8.44.0"],\
             ["eslint-config-next", "virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:13.4.8"],\
@@ -1087,7 +1113,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.0.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:18.2.0"],\
-            ["tailwindcss", "npm:3.3.2"]\
+            ["react-hook-form", "virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:7.45.1"],\
+            ["tailwindcss", "npm:3.3.2"],\
+            ["zod", "npm:3.21.4"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -4034,6 +4062,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.2.0"],\
             ["scheduler", "npm:0.23.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-hook-form", [\
+        ["npm:7.45.1", {\
+          "packageLocation": "./.yarn/cache/react-hook-form-npm-7.45.1-9eaaa3061a-3abe1dcf44.zip/node_modules/react-hook-form/",\
+          "packageDependencies": [\
+            ["react-hook-form", "npm:7.45.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:7.45.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-hook-form-virtual-dba9fd27f1/0/cache/react-hook-form-npm-7.45.1-9eaaa3061a-3abe1dcf44.zip/node_modules/react-hook-form/",\
+          "packageDependencies": [\
+            ["react-hook-form", "virtual:6abb1599003bfc05317434d382dab9e5769fdfd61d929b166e114a7b940f0ec155344034916997eff2779e514159fbf36b1a17ca59b9776ee1e12133a35c01f2#npm:7.45.1"],\
+            ["@types/react", null],\
+            ["react", "npm:18.2.0"]\
           ],\
           "packagePeers": [\
             "@types/react",\
