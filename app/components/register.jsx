@@ -40,7 +40,7 @@ export function Registration() {
       method="POST" 
       data-netlify="true"
       netlify-honeypot="bot-field" 
-      className="flex flex-col">
+      className="flex flex-col z-10">
 
       <input type="hidden" name="form-name" value="userRegistration" /> 
 
