@@ -1,19 +1,21 @@
 import Image from 'next/image'
 import { Registration } from './components/register'
+import { UserProfile } from './components/user-profile'
 import { Login } from './components/login'
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Image
+     {/*  <Image
         className="z-0"
         src="/background.jpg"
         alt="Picture of the author"
         layout="fill"
         objectFit="contain"
         objectPosition="center"
-      />
-      <Registration />
+      /> */}
+      <UserProfile />
+      {/* <Registration /> */}
       {/* <Login /> */} 
     </main>
   )
