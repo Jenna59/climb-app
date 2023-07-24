@@ -2,6 +2,7 @@
 
 import { useForm, SubmitHandler } from "react-hook-form";
 import {zodResolver} from "@hookform/resolvers/zod";
+import { cabin_sketch } from "../layout";
 import { z } from "zod";
 
 export function Registration() {
@@ -40,14 +41,17 @@ export function Registration() {
       method="POST" 
       data-netlify="true"
       netlify-honeypot="bot-field" 
-      className="flex flex-col z-10">
+      className="flex flex-col z-10 outline-dashed outline-4 outline-red-500
+      ">
 
       <input type="hidden" name="form-name" value="userRegistration" /> 
 
       <label className="hidden"></label>
-      <input name="bot-field" />
+      <input name="bot-field" className="hidden" />
 
-      <h1>Join Us For a Good Climb!</h1>
+
+
+      <h1 className={cabin_sketch.className}>Join Us For a Good Climb!</h1>
 
       <label htmlFor="email">Email</label> 
       <input type="email" name="email" id="email"  
